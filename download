@@ -1,0 +1,37 @@
+# Python & notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+
+# Generated TensorFlow weights and exports
+*.keras
+*.weights.h5
+*.h5
+*.tflite
+saved_model/
+checkpoints/
+
+# Local data and medical images
+/data/
+/datasets/
+*.dcm
+*.nii
+*.nii.gz
+
+# Generated runtime logs and research artifacts
+/gap_outputs/
+*.sqlite
+*.db
+logs/
+tensorboard/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

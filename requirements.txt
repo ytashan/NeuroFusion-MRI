@@ -1,0 +1,16 @@
+# Core packages; use a compatible Python/TensorFlow environment.
+# Versions are deliberately not frozen because the uploaded Kaggle notebook
+# does not record a complete lockfile. Pin tested versions for reproduction.
+tensorflow
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+pillow
+tqdm
+jupyterlab
+# Optional for later extensions:
+# pydicom
+# nibabel
